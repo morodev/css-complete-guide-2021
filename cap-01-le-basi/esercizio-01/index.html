@@ -6,18 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TechWebsite</title>
     <link rel="shortcut icon" href="favicon.png">
+    <!-- Inserire lo stile "inline" non è una buona pratica
+     un'altro modo più adeguato è quello di utilizzare il tag style all'interno dell'head
+     in questo modo lo stile non si riferisce solo ad un tag html ma all'intera pagina. -->
+
+    <style>
+        /*utilizzando il selettore "section" verrà applicato il colore di sfondo rosso a tutti*/
+        section {
+            background: #ff1b68
+        }
+    </style>
 </head>
 
 <body>
     <main>
-        <!-- Esempio come inserie lo stile "inline"
-        In questo semplice caso inseriamo un colore di sfondo
-
-        - E' possbile impostare lo sfondo scegliendo tra i colori strandard style="background: red"
-
-        - E' possibile impostare lo sfondo scegliendo un colore esadecimale style="background: #ff1b68"
-        -->
-        <section style="background: #ff1b68">
+        <section>
             <h1>BENVENUTO AL CORSO SU CCS 3.</h1>
         </section>
     </main>
