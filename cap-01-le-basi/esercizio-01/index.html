@@ -6,16 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TechWebsite</title>
     <link rel="shortcut icon" href="favicon.png">
-    <!-- Inserire lo stile "inline" non è una buona pratica
-     un'altro modo più adeguato è quello di utilizzare il tag style all'interno dell'head
-     in questo modo lo stile non si riferisce solo ad un tag html ma all'intera pagina. -->
-
-    <style>
-        /*utilizzando il selettore "section" verrà applicato il colore di sfondo rosso a tutti*/
-        section {
-            background: #ff1b68
-        }
-    </style>
+    <!-- Il modo ideale per collegare alla pagina html un foglio di stile è il seguente
+    utilizzare un link con attributo rel cioè la relazione in questo caso con un foglio di stile
+    e un attributo href attributo richiesto per ancore che definisce un collegamento ipertestuale-->
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
